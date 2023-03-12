@@ -48,4 +48,5 @@ public class student {
         String detail = "The name of Employee is " + get_Name()+ " on position of "+ get_Position()+ " with salary of "+ get_Salary();
         return detail;
     }
+//    abstract public String darkSecrets();
 }
