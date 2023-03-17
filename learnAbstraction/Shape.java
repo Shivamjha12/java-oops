@@ -6,6 +6,10 @@ public interface Shape {
 }
 class Circle implements Shape{
     public void calculateArea(Double r){
-        System.out.println("The area of this circle is"+ Math.PI*r*r );
+        System.out.println("The area of this circle is "+ Math.PI*r*r );
+    }
+    public static void main(String[] args){
+        Circle obj = new Circle();
+        obj.calculateArea(3.4);
     }
 }
